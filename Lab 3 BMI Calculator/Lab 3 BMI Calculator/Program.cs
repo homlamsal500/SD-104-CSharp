@@ -1,0 +1,58 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Lab_3_BMI_Calculator
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            //declare variables
+            double dblHeight;
+            double dblWeight;
+            double dblBMI;
+            //user input 
+            Console.WriteLine("Enter your height in inches: ");
+            dblHeight = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Enter your Weight in pounds: ");
+            dblWeight = Convert.ToInt32(Console.ReadLine());
+
+
+
+
+            //calcultion 
+            dblBMI = (dblWeight * 703) / (dblHeight * dblHeight);
+
+            //issue result and message 
+            Console.WriteLine("Your BMI is " + dblBMI);
+            if(dblBMI < 18.5)
+            {
+                Console.WriteLine("BMI < 18.5 - UnderWeight");
+
+            }   
+            else if(dblBMI <= 24.9)
+            {
+                Console.WriteLine("BMI between 18.5 and 24.9 - Normal");
+
+            }
+            else if (dblBMI <= 29.9)
+            {
+                Console.WriteLine("BMI between 25 and 29.9 - Overweight");
+
+            }
+
+            else
+            {
+                Console.WriteLine("BMI >= 30 - Obese");
+
+            }
+            Console.ReadLine();
+
+        }
+    }
+}
