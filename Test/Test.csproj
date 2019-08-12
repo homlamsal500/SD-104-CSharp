@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2235A9C1-5CAD-4D35-8CC9-DAE7882780EE}</ProjectGuid>
+    <ProjectGuid>{DA961D19-BC54-47F4-ABA8-7392AE63F24E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lab_3_BMI_Calculator</RootNamespace>
-    <AssemblyName>Lab 3 BMI Calculator</AssemblyName>
+    <RootNamespace>Test</RootNamespace>
+    <AssemblyName>Test</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
